@@ -1,0 +1,37 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: expanded # compressed # expanded
+
+# permalink and highlighter
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+# SEO settings
+title: "ayy lmao" 
+description: "Ayy lmao"
+keywords: "Ayy, lmao"
+
+# Site settings
+
+# Author settings
+author:
+  name      : Kristian Snyder 
+  job       : Professional Memes
+  bio       : "Constructing the finest memes from their base components and composing them into a serverless, distributed architecture since 1996." 
+  thumb     : /images/author.jpg
+  email     : "Wouldn't you like to know" 
+  url       : https://kristiansnyder.com 
+  github    : https://github.com/snyderks
+  twitter   : https://twitter.com/kristian_snyder
+  facebook  : "XD"
+  linkedin  : https://linkedin.com/in/kristiansnyder
